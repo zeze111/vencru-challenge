@@ -1,15 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### Local Setup
 * Clone the project:
 ```https://github.com/zeze111/vencru-challenge.git```
 
 * Install all necessary packages:
 ```npm install```
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm start`
 
