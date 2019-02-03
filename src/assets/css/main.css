@@ -1,0 +1,279 @@
+main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(226, 235, 243)
+}
+.main-content{
+  width: 90%;
+  height: 80%;
+  margin-right: 0px;
+  background: #FFFFFF;
+  position: relative;
+  top: 20px;
+  left: 82px;
+}
+.main-content2{
+  width: 80%;
+  height: 80%;
+  margin-right: 0px;
+  background: #FFFFFF;
+  position: relative;
+  top: 20px;
+  left: 310px;
+}
+h3{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 270%;
+  text-align: center;
+  color: #2D74DA;
+  margin: 0px;
+  padding: 100px 0px 30px 0px;
+}
+.icon{
+  text-align: right;
+  cursor: pointer;
+  color: rgb(125, 140, 153);
+  padding: 10px 15px 0px 0px;
+}
+.logo-img{
+  height: 50%;
+}
+.text{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  margin: 0px;
+  color: rgb(125, 140, 153);
+}
+.feedback-btn{
+    width: 140px;
+    height: 41px;
+    margin-right: 90px;
+    font-family: Lato;
+    background: #27AE60;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+    outline:none;
+    color: white;
+    cursor: pointer;
+}
+.portal-btn{
+    width: 140px;
+    height: 41px;
+    margin-left: 20px;
+    font-family: Lato;
+    background: #2D74DA;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+    outline:none;
+    color: white;
+    cursor: pointer;
+}
+.button-div{
+  padding-top: 55px;
+}
+.success-alert{
+  margin: 0;
+  padding-top: 15px;
+  position: relative;
+  bottom: 655px;
+  left: 70%;
+  width: 300px;
+  height: 40px;
+  border-radius: 6px;
+  background: #17BF5F;
+  color: white;
+  font-family: Lato;
+  font-size: 18px;
+  animation: fadeOut 2s linear forwards;
+}
+.alert-icon{
+  padding-right: 15px;
+}
+
+@keyframes fadeOut {
+	0% 	{ opacity: 0; }
+	10% { opacity: 1; }
+	90% { opacity: 1; transform: translateY(0px);}
+	99% { opacity: 0; transform: translateY(-30px);}
+	100% { opacity: 0; }
+}
+
+/* Responsiveness */
+@media (max-width: 1800px) {
+  .main-content{
+    width: 90%;
+    height: 93%;
+    top: 30px;
+    left: 80px;
+  }
+  .main-content2{
+    width: 77%;
+    height: 93%;
+    top: 30px;
+    left: 305px;
+  }
+  h3{
+    font-size: 28px;
+    padding: 70px 0px 50px 0px;
+  }
+  .text{
+    font-size: 15px;
+    padding: 20px 0px 10px 0px;
+  }
+}
+
+/* Ipad pro view */
+@media (max-width: 1024px) {
+  .main-content{
+    width: 86%;
+    height: 70%;
+    top: 30px;
+    left: 65px;
+  }
+  .main-content2{
+    width: 67%;
+    height: 70%;
+    top: 30px;
+    left: 305px;
+  }
+  h3{
+    font-size: 28px;
+    padding: 130px 0px 50px 0px;
+  }
+  .text{
+    font-size: 12.5px;
+    padding: 20px 0px 30px 0px;
+  }
+}
+
+/* Ipad view */
+@media (min-width: 400px) and (max-width: 861px) {
+  .main-content{
+    width: 86%;
+    height: 70%;
+    top: 20px;
+    left: 50px;
+  }
+  .main-content2{
+    width: 86%;
+    height: 70%;
+    top: 20px;
+    left: 50px;
+  }
+  .logo-img{
+    height: 250px;
+  }
+  h3{
+    font-size: 25px;
+    padding: 70px 0px 50px 0px;
+  }
+  .text{
+    font-size: 14px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+  }
+  .feedback-btn{
+    width: 140px;
+    margin-right: 10px;
+  }
+  .button-div{
+    padding-top: 55px;
+  }
+  .success-alert{
+    bottom: 600px;
+    left: 60%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 420px) {
+  .main-content{
+    width: 90%;
+    height: 85%;
+    top: 20px;
+    left: 20px;
+  }
+  .main-content2{
+    width: 90%;
+    height: 85%;
+    top: 20px;
+    left: 20px;
+  }
+  .logo-img{
+    height: 240px;
+  }
+  h3{
+    font-size: 20px;
+    padding: 50px 0px 50px 0px;
+  }
+  .text{
+    font-size: 12px;
+    text-align: center;
+  }
+  .button-div{
+    padding-top: 65px;
+  }
+  .feedback-btn{
+    width: 110px;
+    height: 41px;
+    margin-right: 10px;
+    font-size: 12px
+  }
+  .portal-btn{
+    width: 110px;
+    height: 41px;
+    font-size: 11px
+  }
+  .success-alert{
+    top: 80px;
+    left: 5%;
+  }
+}
+
+@media (max-width: 375px) {
+  .success-alert{
+    top: 10px;
+    left: 5%;
+  }
+  .button-div{
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .main-content{
+    height: 90%;
+  }
+  .main-content2{
+    height: 90%;
+  }
+  .logo-img{
+    height: 210px;
+  }
+  h3{
+    font-size: 16px;
+    padding: 30px 0px 50px 0px;
+  }
+  .text{
+    font-size: 10px;
+    text-align: center;
+  }
+  .button-div{
+    padding-top: 10px;
+  }
+  .success-alert{
+    top: 0px;
+    left: 0%;
+  }
+}
